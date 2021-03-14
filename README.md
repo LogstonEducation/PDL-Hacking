@@ -17,6 +17,10 @@ gcloud container clusters get-credentials hack-cluster
 
 ```
 kubectl apply -f deployment.qotd.yaml
+kubectl apply -f deployment.sql.yaml
 ```
 
 Then point domains at IPs of load balancers.
+
+- http://qotd.netcatlabs.com:17
+- http://sql.netcatlabs.com/items/search/

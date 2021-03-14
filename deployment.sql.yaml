@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: sql-injection
+spec:
+  type: LoadBalancer
+  selector:
+    app: sql-injection
+  ports:
+  - name: sql-injection
+    protocol: TCP
+    port: 80
+    targetPort: 8000
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sql-injection
+spec:
+  selector:
+    matchLabels:
+      app: sql-injection
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: sql-injection
+    spec:
+      containers:
+      - name: sql-injection
+        image: logstoneducation/sql-injection:0.0.1
+        ports:
+        - containerPort: 8000
