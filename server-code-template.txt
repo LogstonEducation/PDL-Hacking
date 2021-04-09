@@ -1,11 +1,11 @@
 Hello {EMAIL}!
 
-You've been issued a server code for use use with the PDL Hacking.
+You've been issued a server code for use use with the PDL Ethical Hacking.
 course. Please use the code and guide below to setup your Google Cloud Platform account.
 
 Server Code: {SERVER_CODE}
 
-Setup guide: https://docs.google.com/document/d/1LUdj3GIfEtupsHclTENt3_RZhrvev03S5iG4vEkhFhw/edit
+Setup guide: https://docs.google.com/document/d/1ZSBKRvYO9eXaa1Ol7OlohBLl1tp5aW2X1dJmPZkKHss
 
 If you have any questions, please reach out to the PDL team.
 
